@@ -22,6 +22,9 @@ metadata:
 
 PPT Master is a routed presentation workflow. This entry owns global execution discipline and route selection only; each selected route owns its procedure.
 
+
+> **OpenAI compatibility package resource note**: this packaged variant keeps the bundled stylistic icon libraries `chunk-filled`, `phosphor-duotone`, and `tabler-filled`. Do not select `tabler-outline` or `simple-icons` in this package; use one of the included libraries or a project-local prepared asset instead. The full upstream-derived distribution remains available in the repository at `skills/ppt-master`.
+
 ## Mandatory Load Order
 
 **Hard rule — paths before commands**: Retain the host-provided absolute
