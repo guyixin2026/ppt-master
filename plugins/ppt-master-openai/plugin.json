@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ppt-master",
+  "version": "6.6.0",
+  "description": "AI-driven presentation workflow for generating natively editable PPTX decks and slides.",
+  "author": {"name":"Hugo He","email":"heyug3@gmail.com","url":"https://www.hehugo.com/"},
+  "homepage": "https://github.com/hugohe3/ppt-master",
+  "repository": "https://github.com/guyixin2026/ppt-master",
+  "license": "MIT",
+  "keywords": ["pptx","presentation","powerpoint","svg","drawingml","ai","skill","office"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "PPT Master",
+        "shortDescription": "Generate editable PowerPoint decks",
+        "longDescription": "Generate, reconstruct, redesign, template, and enhance natively editable PowerPoint presentations.",
+        "developerName": "Hugo He",
+        "category": "Productivity",
+        "capabilities": ["Generate editable PPTX decks","Reconstruct slides from images","Create presentation templates","Edit native PPTX files"]
+      }
+    }
+  }
+}
